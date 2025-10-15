@@ -7,3 +7,14 @@ h1 {
 li {
     color: black;
 }
+
+#mostfavourite{
+    text-decoration: solid;
+    font-weight: bold;
+    color: aqua;
+}
+
+.favourite{
+    color: aquamarine;
+    font-weight: bolder;
+}
