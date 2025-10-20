@@ -41,8 +41,15 @@
 	</ol>
 
 	<form action="https://script.google.com/macros/s/AKfycbz6cewkwC6P68-qotOokhBb_v1Zxr3aozRItX-rFramd4p_7R3XzwHLj7o1mN-6Okez/exec" method="post">
-		<label for="College"> College</label>
-		<input id="College" type="text">
+		<label for="institution"> College</label>
+		<input id="yourCollege" name="institution" type="text">
+
+		<input id="associateOption" type="radio" name="degreeType" value="AS">
+		<label for="associateOption">Associates</label>
+
+		<input id="bachelorOption" type="radio" name="degreeType" value="BS">
+		<label for="bachelorOption">Bachelors</label>
+		
 		<button type="submit">send information</button>
 	</form>
 </body>
