@@ -12,7 +12,7 @@
 	<h1>About me</h1>
 	<a href="./project.html">Click to view my projects</a>
 
-	<div>
+	<div class="bioInfo">
 		<p>My name is Keith Karani</p>
 		<p>I study at Green River Community College and I live in Auburn</p>
 	</div>
@@ -41,18 +41,20 @@
 	</ol>
 
 	<form action="https://script.google.com/macros/s/AKfycbz6cewkwC6P68-qotOokhBb_v1Zxr3aozRItX-rFramd4p_7R3XzwHLj7o1mN-6Okez/exec" method="post">
-		<div>
+		<div class="formInfo">
 		<label for="yourCollege"> College</label>
 		<input id="yourCollege" name="institution" type="text" required>
 		</div>
 
+		<div class="formInfo">
 		<input id="associateOption" type="radio" name="degreeType" value="AS">
 		<label for="associateOption">Associates</label>
 
 		<input id="bachelorOption" type="radio" name="degreeType" value="BS">
 		<label for="bachelorOption">Bachelors</label>
+		</div>
         
-		<div>
+		<div class="formInfo">
 		<label for="yearSelector">Current Year: </label>
 		<select id="yearSelector" name="year">
 			<option value="Fr">Freshman</option>

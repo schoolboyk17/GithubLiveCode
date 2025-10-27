@@ -2,14 +2,18 @@ h1 {
     color: brown;
     text-decoration:solid;
     text-decoration: underline;
+    
 }
 
 a{
-    
+    color: blueviolet;
+
 }
 
 li {
     color: blue;
+    font-size: larger;
+    margin: 7px;
 }
 
 #mostfavourite{
@@ -21,4 +25,32 @@ li {
 .favourite{
     color: aquamarine;
     font-weight: bolder;
+}
+
+form{
+    font: bold;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+div.formInfo{
+    margin: 15px;
+    border: green solid;
+    padding: 25px;
+    text-align: left;
+    font-weight: bold;
+    background-color: bisque;
+}
+
+div.bioInfo{
+    margin: 10px;
+    border: gold solid 4px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: blanchedalmond;
 }
